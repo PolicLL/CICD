@@ -8,11 +8,13 @@ public class TestController {
 
   @GetMapping("/test")
   public String getTest() {
+    System.out.println("PERA1950");
     return "Value";
   }
 
   @GetMapping("/test2")
   public String getTest2() {
+    System.out.println("PERA1950");
     return "ValueValueValueValueValueValueValueVal"
         + "ueValueValueValueValueValueValueValueVa"
         + "lueValueValueValueValueValueValueValueV"
