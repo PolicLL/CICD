@@ -11,4 +11,12 @@ public class TestController {
     return "Value";
   }
 
+  @GetMapping("/test2")
+  public String getTest2() {
+    return "ValueValueValueValueValueValueValueVal"
+        + "ueValueValueValueValueValueValueValueVa"
+        + "lueValueValueValueValueValueValueValueV"
+        + "ValueValueValueValueValueValueValue";
+  }
+
 }
